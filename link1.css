@@ -1,0 +1,53 @@
+.navbar-brand {
+
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'UnifrakturCook', cursive;
+	font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+body{
+
+	background-image: url(https://i.pinimg.com/originals/06/9d/b0/069db0fc3552dcb976f73bc4df686839.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+img { max-width: 100%; height: auto; }
+p{
+	color: white;
+	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+	font-family: 'Sansita Swashed', cursive;
+	text-shadow: 3px 2px black;
+
+}
+
+.navbar-toggler-icon{
+	width: 0.7em;
+	height: 0.7em;
+}
+
+span{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'UnifrakturCook', cursive;
+	font-size: 1.7em;
+}
+.hov{
+	display: flex;
+	float: right;
+}
+.hov {
+  padding: 0px;
+  transition: transform 2s;
+  margin-left: 0px;
+  width: 733px;
+  height: 539px;
+}
+
+.hov:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
+}

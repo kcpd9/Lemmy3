@@ -1,0 +1,125 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to right,#050b10, #0A1D2D);
+	
+	background-size: cover;
+
+}
+label{
+  color: white;
+}
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+.navbar-toggler-icon{
+  width: 0.7em;
+  height: 0.7em;
+}
+
+h1{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'UnifrakturCook', cursive;
+	font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+	margin-left: 20px;
+}
+
+
+.navbar-brand {
+
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'UnifrakturCook', cursive;
+	font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-github {
+  background: #24292E;
+  color: white;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+.col-md-6{
+margin-right: 5px;
+}
+.row{
+	margin-bottom: 15px;
+}
+
+.map-container-2{
+overflow:hidden;
+padding-bottom:0%;
+position:relative;
+height:0;
+}
+.map-container-2 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.my-form {
+        color: #305896;
+    }
+    .my-form .btn-default {
+        background-color: #305896;
+        color: #fff;
+        border-radius: 0;
+    }
+    .my-form .btn-default:hover {
+        background-color: #4498C6;
+        color: #fff;
+    }
+    .my-form .form-control {
+        border-radius: 0;
